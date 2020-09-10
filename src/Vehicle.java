@@ -5,11 +5,13 @@ public class Vehicle {
         return this.wheels;
     }
 
-    public void setWheels(){
+    public void setWheels(int wheels){
         this.wheels = wheels;
     }
 
-    public Vehicle(){}
+    public Vehicle(){
+        this.wheels = 4;
+    }
 
     public Vehicle(int wheels){
         this.wheels = wheels;
