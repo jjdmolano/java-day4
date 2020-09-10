@@ -25,7 +25,7 @@ public class StaticPoly {
     }
 
 //    2nd -> 3 long numbers
-    public double multiply(double a, double b, double c) {
+    public long multiply(long a, long b, long c) {
         return a * b * c;
     }
 
